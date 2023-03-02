@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400&family=Poppins&family=Roboto+Mono:wght@200;300;400&family=Roboto:wght@300;400&display=swap');
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+input{
+    height: 50px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #efefef;
+    border: 0px solid;
+    margin: 1px;
+}
+input::placeholder {
+    text-align: center;
+}
